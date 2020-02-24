@@ -1,0 +1,371 @@
+
+/* Tablet (kurac) ----------- */
+@media only screen and (max-width : 1024px){
+    .homeInfo h2{
+        font-size: 5em;
+    }
+
+
+    .about img{
+        width: 14em;
+    }
+
+
+    .kocka img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .kocka p{
+        top: 30%;
+        font-size: 1.4em;
+    }
+
+
+
+    .card-carousel .my-card.active {
+        -webkit-transform: scale(3.3) translateY(0) translateX(0);
+        transform: scale(3.3) translateY(0) translateX(0);
+    }
+
+    .card-carousel .my-card.next {
+        -webkit-transform: scale(1) translateY(-0.2rem) translateX(5rem);
+        transform: scale(1) translateY(-0.2rem) translateX(5rem);
+    }
+    .card-carousel .my-card.prev{
+        -webkit-transform: scale(0.8) translateY(-0.2rem) translateX(-5rem);
+        transform: scale(0.8) translateY(-0.2rem) translateX(-5rem);
+    }
+
+    .my-card h2{
+        color: #080705;
+        font-size: 0.2em;
+        text-align: center;
+        position: relative;
+        top: 53%;
+    }
+    .slika{
+        top: 48.5%;
+    }
+}
+
+
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 420px) {
+    .sticky{
+        display: none;
+    }
+
+
+    .homeInfo{
+        padding: 1em;
+    }
+    .homeInfo h2{
+        width: 100%;
+        top: 10%;
+        font-size: 4em;
+        text-align: center;
+    }
+    .homeInfo h4{
+        position: relative;
+        top: 20rem;
+        font-size: 2em;
+    }
+    .homeInfo button{
+        position: relative;
+        width: 50%;
+        top: 16rem;
+        background-color: #B80C09;
+        color: white;
+        border: none;
+    }
+    .homeInfo p{
+        margin: auto;
+        font-size: 1.31415926em;
+        font-weight: bold;
+    }
+    .scrollDown{
+        width: 100%;
+        text-align: center;
+        font-size: 0.8em !important;
+
+        bottom: -16%;
+    }
+    .homeInfo i{
+        bottom: -21%;
+    }
+
+
+
+    .about{
+        padding: 0;
+    }
+    .about p{
+        display: inline-block;
+        position: relative;
+        font-size: 0.8em;
+        top: 5%;
+        transform: translateY(-50%);
+    }
+    .about img{
+        width: 12em;
+    }
+    .col{
+        float: left;
+        width: 33.3%;
+        box-sizing: border-box;
+        padding: 1em;
+    }
+    .aboutBestCourse{
+        float: left;
+        width: 100%;
+        height: 33%;
+        background-image: url("./images/about_bestCourse.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .aboutBestMostar{
+        display: block;
+        float: left;
+        width: 100%;
+        height: 33%;    
+        top: 33%;
+        background-image: url("./images/about_bestMostar.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .aboutBest{
+        display: block;
+        float: left;
+        width: 100%;
+        height: 33%;
+        top: 66%;
+        background-image: url("./images/about_best.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .upperLeft{
+        display: block;
+        position: relative;
+        width: 100px;
+        height: 70px;
+        top: 10px;
+        left: 10px;
+        background-color: white;
+        color: white;
+    }
+    .upperRight{
+        display: block;
+        position: relative;
+        width: 100px;
+        height: 70px;
+        top: 10px;
+        right: -110px;
+        background-color: white;
+        color: white;
+    }
+    .centerText{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        padding: 0.4em;
+        line-height: 0.8em;
+        transform: translateY(0);
+    }
+    
+    .centerText:hover{
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    .centerText:hover > img.front{
+        display: none;
+    }
+    p.rear{
+        display:none;
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+    }
+    .centerText:hover > p.rear{
+        display: block;
+    }
+
+
+
+
+    .usefulInfo{
+        width: 100%;
+        height: 90%;
+        padding: 0.2em;
+    }
+    .kocka{
+        background-color: transparent;
+        background-color:#B80C09;
+        color: white;
+        border: none;
+        display: block;
+        float: left;
+        box-sizing: border-box;
+        width: 50vw;
+        height: 50vw;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+        margin: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0;
+    }
+    .kocka p{
+        position: relative;
+        top: 20%;
+        transform: translateY(-50%);
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .kocka:hover{
+        background-color: transparent;
+        background-color:#B80C09;
+        color: white;
+        border: none;
+    }
+    .kocka img{
+        width: 20vw;
+        height: 20vw;
+        margin-top: 10%;
+    }
+
+
+
+    .contact{
+        width: 100%;
+        height: 70%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: none;
+        padding: 0 5% 0 5%;
+        margin: 0;
+    }
+    .row{
+        display: block;
+    }
+    h2{
+        top: 0;
+    }
+    .contact h4{
+        width: fit-content;
+        position: relative;
+        display: block;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1em;
+        color: white;
+        font-weight: bold;
+    }
+    .contactCol{
+        position: relative;
+        display: block;
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+        height: 33%;
+        color: white;
+        text-align: center;
+        padding: 1%;
+        flex-wrap: wrap;
+    }
+    .contactCol p{
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        font-size: 1.2em;
+        line-height: 0.5em;
+    }
+    .contactCol span{
+        padding: 0.2em;
+    }
+    .card-body > i{
+        display: inline;
+    }
+
+    .card {
+        margin: 0;
+        margin-bottom: 5%;
+        height: 8rem;
+        border-radius: 0;
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .card-header  {
+        padding: .25rem 1.25rem;
+        font-weight: bold;
+        background-color: transparent;
+        border-bottom:2px solid rgba(0,0,0,.4);
+    }
+
+    .card-body  {
+        padding: .35rem;
+    }
+
+    .card span, .card i {
+        font-size: 1em;
+    }
+    .bg-primary{
+        background-color: rgba(184, 12, 9, 0.5) !important;
+    }
+    .col-md-4{
+        padding: 0;
+    }
+
+
+
+
+
+    .card-carousel .my-card {
+        width: 100px;
+    }
+
+    .ctContainer h2{
+        top: 5%;
+    }
+
+    .card-carousel .my-card.active {
+        -webkit-transform: scale(6.5) translateY(0) translateX(0);
+        transform: scale(6.5) translateY(0) translateX(0);
+    }
+
+    .card-carousel .my-card.next {
+        -webkit-transform: scale(1) translateY(-1rem) translateX(7rem);
+        transform: scale(1) translateY(-1rem) translateX(7rem);
+    }
+    .card-carousel .my-card.prev{
+        -webkit-transform: scale(1) translateY(-1rem) translateX(-7rem);
+        transform: scale(1) translateY(-1rem) translateX(-7rem);
+    }
+
+    .my-card h2{
+        position: relative;
+        color: #080705;
+        font-size: 0.2em;
+        text-align: center;
+        position: relative;
+        top: 53%;
+    }
+    
+    .slika{
+        top: 48.9%;
+    }
+    
+}
